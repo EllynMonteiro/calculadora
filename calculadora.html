@@ -1,0 +1,81 @@
+<meta charset = "UTF-8">
+
+<script>
+	
+	function pulaLinha() {
+		
+		document.write("<br>");
+
+	}
+
+	function escreva(frase) {
+
+		document.write(frase);
+
+	}
+
+	var opcao = prompt("Digite a opção desejada: \n 1 - Adição \n 2 - Subtração \n 3 - Multiplicação \n 4 - Divisão");
+
+
+	escreva("Bem vindo a minha calculadora!");
+
+	pulaLinha();
+	pulaLinha();
+
+	if (opcao == 1) {
+
+		var nome = prompt("Digite o seu nome: ");
+
+		var num1 = parseInt(prompt("Digite o primeiro numero: "));
+		var num2 = parseInt(prompt("Digite o segundo numero: "));
+
+		var resultado = num1 + num2;
+
+		escreva(nome + ", o resultado é: " + resultado);
+
+	}
+
+	if (opcao == 2) {
+
+		var nome = prompt("Digite o seu nome: ");
+
+		var num1 = parseInt(prompt("Digite o primeiro numero: "));
+		var num2 = parseInt(prompt("Digite o segundo numero: "));
+
+		var resultado = num1 - num2;
+
+		escreva(nome + ", o resultado é: " + resultado);
+
+	}
+
+	if (opcao == 3) {
+
+		var nome = prompt("Digite o seu nome: ");
+
+		var num1 = parseInt(prompt("Digite o primeiro numero: "));
+		var num2 = parseInt(prompt("Digite o segundo numero: "));
+
+		var resultado = num1 * num2;
+
+		escreva(nome + ", o resultado é: " + resultado);
+
+
+	}
+
+	if (opcao == 4) {
+
+		var nome = prompt("Digite o seu nome: ");
+
+		var num1 = parseInt(prompt("Digite o primeiro numero: "));
+		var num2 = parseInt(prompt("Digite o segundo numero: "));
+
+		var resultado = num1 / num2;
+
+		escreva(nome + ", o resultado é: " + resultado);
+
+	}
+
+
+
+
+</script>
